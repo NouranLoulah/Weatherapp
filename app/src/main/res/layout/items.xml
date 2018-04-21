@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="70dp"
+    android:layout_height="250dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/text_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+
+
+        />
+
+    <TextView
+        android:id="@+id/text_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_wb_cloudy_black_24dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/text_rain"
+        android:text="Rainy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#FFF"
+
+        />
+
+
+    <TextView
+        android:id="@+id/min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+
+</LinearLayout>
